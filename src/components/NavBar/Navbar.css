@@ -48,6 +48,7 @@
 .images img{
     height: 1.3em;
     width: 1.3em;
+    border: 10px solid transparent;
 }
 
 
