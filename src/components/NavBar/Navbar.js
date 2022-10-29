@@ -2,7 +2,6 @@ import './Navbar.css';
 import Introd from './pages/intro'
 import About from './pages/about'
 import Proj from './pages/project'
-import Service from './pages/services'
 
 import React from 'react';
 import img1 from './img1.png'
@@ -12,9 +11,10 @@ import img3 from './img3.svg'
 
 function Navbar(){
     let Contents
+    Contents = <Introd/>
     switch(window.location.pathname)
     {
-        case "/":
+        case "/intro":
             Contents = <Introd/>
             break
         case "/projects":
@@ -23,18 +23,14 @@ function Navbar(){
         case "/about":
             Contents = <About/>
             break
-        case "/services":
-            Contents = <Service/>
-            break
     }
     return(
         <div className="Navbar">
             <div className="l_side">
                 <div className="lin">
-                    <a href="/">Home</a>
+                    <a href="/intro">Home</a>
                     <a href="/projects">Projects</a>
                     <a href="/about">About</a>
-                    <a href="/services">Services</a>
                 </div>
                 <div className="images">
                     <a href="https://github.com/Sekai58">

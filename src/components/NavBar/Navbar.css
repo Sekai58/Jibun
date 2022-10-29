@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.l-side{
+.l_side{
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -30,14 +30,14 @@
     align-items: center;
     padding: 2px;
 }
-.r-side{ 
+.r_side{ 
     flex: 6;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Navbar .l-side .lin a{
+.Navbar .l_side .lin a{
     height: 60px;
     text-decoration: none;
     font-size: 20px;
@@ -55,7 +55,7 @@
 .content{
     width:800px;
     height: 500px;
-    color: rgb(116, 202, 236);
+    color: rgb(248, 217, 230);
     background-color: rgba(241, 226, 234, 0.2);
     box-shadow: 2px 2px whitesmoke;
 }
